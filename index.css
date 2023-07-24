@@ -52,6 +52,9 @@
   background-color: black;
   margin-top: 0;
 }
+.head .dark .active {
+  box-shadow: 0 5px 0 0 white;
+}
 .head .fas, .head #light {
   transition: 0.5s;
 }
