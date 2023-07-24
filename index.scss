@@ -1,0 +1,17 @@
+@import 'Header/header.scss';
+@import 'Main/main.scss';
+
+ p {
+    margin: 0 !important;
+    padding: 0 !important;
+   }
+
+.hide {
+    display: none;
+}
+.active {
+    box-shadow: 0 5px 0 0;
+}
+.margin {
+    margin-left: 21px;
+}

@@ -1,0 +1,103 @@
+main {
+
+    #main {
+
+        .card {
+            flex: 1;
+            border: none;
+            height: auto;
+            transition: 0.5s;
+    
+            &:hover {
+                box-shadow: 0 0 20px 5px rgba(165, 165, 165, 0.678) !important;
+            }
+        }
+        .text {
+            width: 50%;
+        }
+    
+        .tags {
+            background: linear-gradient(to right top, rgb(100, 184, 252), rgba(244, 242, 255, 0.959));  
+            border: none;
+            color: rgb(68, 68, 68);
+            margin-top: 15px;
+        }
+        img {
+            object-fit: cover;
+        }
+    }
+    .dark {
+        background-color: rgb(46, 46, 46);
+        color: white;
+
+         .text {
+            color: orange;
+         }
+    }
+    #main2 {
+        min-height: calc(100vh - 84px)
+    }
+
+    .icons {
+
+        a {
+            text-decoration: none;
+            color: inherit;
+
+            &:hover {
+                color: orangered;
+            }
+        }
+    }
+ }
+
+ @media (max-width: 950px) {
+    .works {
+        flex-direction: column-reverse;
+        align-items: center !important;
+    }
+    
+    .card, .text {            
+        width: 500px !important;
+        height: auto !important;
+    }
+    #text {
+        padding: 0 !important;
+    }
+ }
+
+ @media (max-width: 550px) {
+    .works {
+        p, span, button {
+            font-size: 12px;
+        }
+
+        button {
+            padding: 2px 10px !important;
+        }
+    }
+    .card, .text {            
+        width: 300px !important;
+        height: auto !important;
+    }
+    #info {
+        padding: 0 !important;
+
+        h5 {
+            padding: 0 !important;
+        }
+    }
+ }
+
+ @media (max-width: 1020px) {
+    #info {
+        
+        .icons {
+            flex-direction: column;
+            gap: 20px !important;
+        }
+        h5 {
+            width: 100% !important;
+        }
+    }
+ }

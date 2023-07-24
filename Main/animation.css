@@ -1,0 +1,90 @@
+.anima1 {
+            animation-name: car;
+            animation-duration: 4s;
+            animation-iteration-count: inherit;
+            animation-direction: reverse;
+            position: relative;
+            animation-timing-function: cubic-bezier(0.6, -0.28, 0.735, 0.045);
+}
+@keyframes car {
+    from {
+        right: 0;
+    }
+
+    to {
+        right: 500px
+    }
+} 
+.anima2 {
+           animation-name: texts;
+            animation-duration: 4s;
+            animation-iteration-count: inherit;
+            animation-direction: reverse;
+            position: relative;
+            animation-timing-function: cubic-bezier(0.6, -0.28, 0.735, 0.045);
+}
+@keyframes texts {
+    from {
+       left: 0;
+    }
+
+    to {
+       left: 500px
+    }
+} 
+
+.anima3 {
+            animation-name: texts1;
+            animation-duration: 2s;
+            animation-iteration-count: inherit;
+            animation-direction: reverse;
+            position: relative;
+            animation-timing-function: ease-in;
+}
+@keyframes texts1 {
+    from {
+       top: 0;
+       opacity: 100%;
+    }
+
+    to {
+       top: 210px;
+       opacity: 0%;
+    }
+} 
+.anima4 {
+            animation-name: texts2;
+            animation-duration: 5s;
+            animation-iteration-count: inherit;
+            animation-direction: reverse;
+            position: relative;
+            animation-timing-function: ease-in;
+}
+@keyframes texts2 {
+    from {
+       bottom: 0;
+       opacity: 100%;
+    }
+
+    to {
+       bottom: 700px;
+       opacity: 0%;
+    }
+} 
+.anima5 {
+            animation-name: texts3;
+            animation-duration: 5s;
+            animation-iteration-count: inherit;
+            animation-direction: reverse;
+            position: relative;
+            animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+@keyframes texts3 {
+    from {
+       opacity: 100%;
+    }
+
+    to {
+       opacity: 0%;
+    }
+} 

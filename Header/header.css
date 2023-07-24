@@ -1,0 +1,71 @@
+.head {
+  position: sticky;
+  top: 0;
+  z-index: 3;
+}
+.head header {
+  width: 100%;
+  padding: 30px;
+  background-color: white;
+}
+.head header ul {
+  list-style: none;
+  margin: auto;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.head header ul p {
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.head header ul p:hover {
+  color: orangered;
+}
+.head header .mode {
+  width: 40px;
+  height: 20px;
+  background-color: black;
+  cursor: pointer;
+}
+.head header .mode .circle {
+  width: 18px;
+  height: 18px;
+  margin-top: 1px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 100%;
+}
+.head .dark {
+  background-color: rgb(26, 26, 26);
+  box-shadow: 2px 2px 20px 5px rgba(255, 240, 153, 0.877) !important;
+  color: white;
+}
+.head .dark .mode {
+  border: 1px solid rgb(255, 255, 255);
+  background-color: white;
+}
+.head .dark .mode .circle {
+  background-color: rgb(255, 255, 255);
+  background-color: black;
+  margin-top: 0;
+}
+.head .fas, .head #light {
+  transition: 0.5s;
+}
+
+@media (max-width: 550px) {
+  header {
+    flex-direction: column-reverse;
+  }
+  header .theme {
+    top: 10px;
+    right: 10px;
+    position: absolute;
+  }
+  header ul {
+    margin-top: 30px !important;
+  }
+}/*# sourceMappingURL=header.css.map */
