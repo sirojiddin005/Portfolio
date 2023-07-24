@@ -3,15 +3,15 @@ const hom = document.getElementById('main');
 const data = [
     {
        discription: 'Project description',
-       topic: 'Developing Blog UI using CSS, SASS, BOOTSRAP, REACT',
-       text1: 'The main goal is to strengthen knowledge about react, improve skills and make mobile friendly',
+       topic: 'Developing Blog UI using Css, Sass, Bootsrap, React',
+       text1: 'The main goal is to strengthen knowledge about React, improve skills and make mobile friendly',
        href: 'Images/img 1.jpg',
        link: 'https://sirojiddin-blog-react.netlify.app'
     },
     {
         discription: 'Project description',
-        topic: 'Developing Blog UI using CSS, SASS, BOOTSRAP',
-        text1: 'The main goal of the project is converting figma design into html code using CSS, SASS, BOOTSRAP and make mobile friendly',
+        topic: 'Developing Blog UI using Css, Sass, Bootsrap',
+        text1: 'The main goal of the project is converting figma design into html code using Css, Sass, Bootsrap, and make mobile friendly',
         href: 'Images/img 2.jpg',
         link: 'https://sirojiddin-blog-sass.netlify.app'
      },
@@ -25,16 +25,23 @@ const data = [
      {
         discription: 'Project description',
         topic: 'Simple Blog UI using React Js',
-        text1: 'The main goal of the project is to strengthen basic knowledge of react',
+        text1: 'The main goal of the project is to strengthen basic knowledge of React',
         href: 'Images/img 5.jpg',
         link: 'https://sirojiddin-blog-react-wix04.netlify.app'
      },
      {
         discription: 'Project description',
-        topic: 'Simple Blog UI using pure html and css only',
-        text1: 'The main goal of the project is converting figma design into pure html and css and make mobile friendly',
+        topic: 'Simple Blog UI using pure Html and Css only',
+        text1: 'The main goal of the project is converting figma design into pure Html and Css and make mobile friendly',
         href: 'Images/img 6.jpg',
         link: 'https://sirojiddin-blog-music.netlify.app'
+     },
+     {
+        discription: 'Project description',
+        topic: 'Simple Blog UI using Html, Css, JavaScript, Sass',
+        text1: 'The main goal of the project is to strengthen knowledge of Html, Css, Sacss, JavaScript',
+        href: 'Images/img 7.jpg',
+        link: 'https://sirojiddin-blog-5slov.netlify.app'
      },
 ];
 
